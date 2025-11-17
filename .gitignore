@@ -1,0 +1,5 @@
+# Archivos
+.DS_Store
+
+# Directorios
+__pycache__
