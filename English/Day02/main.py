@@ -1,4 +1,6 @@
-print("\n*** Tip Calculator ***\n")
+# =======================
+#      Tip Calculator
+# =======================
 
 bill = float(input("Enter the total bill: $"))
 tip = int(input("What percentage tip would you like to give? 10, 12, or 15%: "))

@@ -1,8 +1,6 @@
 import string
 import random
 
-print("\n*** Generador de contraseñas ***\n")
-
 numeros = string.digits
 letras = string.ascii_letters
 simbolos = string.punctuation
@@ -25,4 +23,4 @@ for _ in range(eleccion_simbolos):
 random.shuffle(contraseña)
 
 contraseña_final = "".join(contraseña)
-print(f"Contraseña: {contraseña_final}")
+print(f"Tu contraseña es: {contraseña_final}")

@@ -1,5 +1,3 @@
-print("\n*** Calculadora de propinas ***\n")
-
 factura = float(input("Ingresa el total de la factura: $"))
 propina = int(input("Qué porcentaje de propina deseas dar 10, 12 0 15%: "))
 personas = int(input("Entre cuantas personas se repartirá la cuenta: "))

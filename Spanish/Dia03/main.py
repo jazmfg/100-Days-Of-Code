@@ -1,5 +1,3 @@
-print("\n*** Isla del tesoro ***\n")
-
 eleccion1 = input("Te encuentras en una encrucijada, ¿hacia dónde deseas ir? 'izquierda' o 'derecha':\n").strip().lower()
 
 if eleccion1 == "izquierda":

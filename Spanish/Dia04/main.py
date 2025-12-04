@@ -1,7 +1,5 @@
 import random
 
-print("\n*** piedra, papel o tijera ***\n")
-
 piedra = """
     _______
 ---'   ____)
