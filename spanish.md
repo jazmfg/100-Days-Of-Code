@@ -17,12 +17,12 @@
 * [Día 12.](/Spanish/Dia-12/main.py) Adivina el Número
 * [Dia 13.](/Spanish/Dia-13/README.md) Depuración
 * [Día 14.](/Spanish/Dia-14/main.py) Mayor / Menor
-* [Día 15.](/Spanish/Dia-15/main.py) Máquina de café 
-* [Día 16.](/Spanish/Dia-16/main.py) Máquina de café y Programación Orientada a Objetos (POO)
+* [Día 15.](/Spanish/Dia-15/main.py) Máquina de café - Parte I
+* [Día 16.](/Spanish/Dia-16/main.py) Máquina de café - Parte II
 * [Día 17.](/Spanish/Dia-17/main.py) Test
 * [Día 18.](/Spanish/Dia-18/main.py) Turtle
-* [Día 19.](/Spanish/Dia-19/main.py)  
-* [Día 20.](/Spanish/Dia-20/main.py) 
+* [Día 19.](/Spanish/Dia-19/main.py) Carrera de Tortugas
+* [Día 20.](/Spanish/Dia-20/main.py) Juego de la serpiente - Parte I
 
 
 <div align="center">

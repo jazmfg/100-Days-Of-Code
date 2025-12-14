@@ -5,8 +5,7 @@ INTENTOS_DIFICIL = 5
 
 def verificar_intento(intentado, numero_secreto, intentos_restantes):
     """
-    Compara el número ingresado con el número secreto.
-    Devuelve la cantidad de intentos restantes.
+    Compara el número ingresado con el número secreto, devuelve la cantidad de intentos restantes.
     """
     
     if intentado > numero_secreto:
@@ -23,7 +22,7 @@ def elegir_dificultad():
     """
     Pregunta al jugador la dificultad y retorna el número de intentos disponibles.
     """
-    nivel = input("Elige dificultad 'facil' = 10 intentos / 'dificil' = 5 intentos: ").lower()
+    nivel = input("Elige dificultad 'facil' = 10 intentos / 'dificil' = 5 intentos: ").lower().strip()
     
     if nivel == "facil":
         return INTENTOS_FACIL
@@ -31,7 +30,6 @@ def elegir_dificultad():
         return INTENTOS_DIFICIL
 
 def jugar():
-    """Función principal del juego."""
     print("\nBienvenido a ¡Adivina el Número!\n")
     print("Estoy pensando en un número entre 1 y 100...")
 

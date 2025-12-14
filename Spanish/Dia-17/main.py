@@ -1,6 +1,6 @@
 import random
 from datos import datos_preguntas
-from modelo_de_preguntas import Pregunta
+from modelo import Pregunta
 from cuestionario import CerebroCuestionario
 
 banco_preguntas = []
@@ -18,4 +18,4 @@ while cuestionario.aun_hay_preguntas():
     cuestionario.siguiente_pregunta()
 
 print("Has completado el cuestionario")
-print(f"Tu puntuación final fue: {cuestionario.puntaje}/{cuestionario.numero_pregunta}")
+print(f"Tu puntuación final es: {cuestionario.puntaje} de {cuestionario.numero_pregunta}")

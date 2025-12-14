@@ -11,9 +11,7 @@ class CerebroCuestionario:
     def siguiente_pregunta(self):
         pregunta_actual = self.lista_preguntas[self.numero_pregunta]
         self.numero_pregunta += 1
-        respuesta_usuario = input(
-            f"P.{self.numero_pregunta}: {pregunta_actual.texto} (Verdadero/Falso): "
-        )
+        respuesta_usuario = input(f"P{self.numero_pregunta}: {pregunta_actual.texto} (Verdadero/Falso): ").strip()
         self.verificar_respuesta(respuesta_usuario, pregunta_actual.respuesta)
 
     def verificar_respuesta(self, respuesta_usuario, respuesta_correcta):

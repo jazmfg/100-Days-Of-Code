@@ -41,7 +41,7 @@ def juego():
         print(vs)
         print(f"B: {formatear_datos(cuenta_b)}")
 
-        eleccion = input("¿Quién tiene más seguidores? Escribe 'A' o 'B': ").lower()
+        eleccion = input("¿Quién tiene más seguidores? Escribe 'A' o 'B': ").lower().strip()
 
         seguidores_a = cuenta_a["seguidores"]
         seguidores_b = cuenta_b["seguidores"]

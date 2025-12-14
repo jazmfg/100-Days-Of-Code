@@ -1,6 +1,6 @@
 from menu import Menu
 from cafetera import Cafetera
-from maquina_de_dinero import MaquinaDinero
+from maquina import MaquinaDinero
 
 menu = Menu()
 cafetera = Cafetera()
@@ -10,7 +10,7 @@ maquina_encendida = True
 
 while maquina_encendida:
     opciones = menu.obtener_items()
-    eleccion = input(f"\n¿Qué te gustaría? ({opciones}): ").lower()
+    eleccion = input(f"\n¿Qué te gustaría? ({opciones}): ").lower().strip()
 
     if eleccion == "apagado" or eleccion == "off":
         maquina_encendida = False

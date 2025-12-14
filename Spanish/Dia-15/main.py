@@ -61,7 +61,6 @@ def procesar_monedas():
 
     total = 0.0
 
-    # Recorremos el diccionario para pedir la cantidad de cada moneda
     for nombre, valor in monedas.items():
         cantidad = int(input(f"¿Cuántos {nombre}? ({valor} dólares cada uno): "))
         total += cantidad * valor
@@ -77,7 +76,7 @@ def preparar_cafe(nombre_bebida, ingredientes):
 encendido = True
 
 while encendido:
-    eleccion = input("¿Qué te gustaría? (espresso/latte/capuchino): ").lower()
+    eleccion = input("¿Qué te gustaría? (espresso/latte/capuchino): ").lower().strip()
 
     if eleccion == "off":
         encendido = False
@@ -96,6 +95,7 @@ while encendido:
                 dinero += bebida["costo"]
                 preparar_cafe(eleccion, bebida["ingredientes"])
             else:
-                print("Lo siento, no es suficiente dinero. Dinero devuelto.")
+                print("Lo siento, no es suficiente dinero")
+                print("Dinero devuelto")
     else:
-        print("Opción inválida. Por favor elige espresso, latte o capuchino.")
+        print("¡Opción inválida! Por favor elige espresso, latte o capuchino.")

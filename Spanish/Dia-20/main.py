@@ -1,27 +1,26 @@
-from turtle import Screen
-from snake import Snake
 import time
+from turtle import Screen
+from serpiente import Serpiente
 
-screen = Screen()
-screen.setup(width=600, height=600)
-screen.bgcolor("black")
-screen.title("Snake Game")
-screen.tracer(0)
+pantalla = Screen()
+pantalla.setup(width=600, height=600)
+pantalla.bgcolor("black")
+pantalla.title("Juego de la Serpiente")
+pantalla.tracer(0)
 
-snake = Snake()
-# food = Food()
+serpiente = Serpiente()
 
-screen.listen()
-screen.onkey(snake.up, "Up")
-screen.onkey(snake.down, "Down")
-screen.onkey(snake.left, "Left")
-screen.onkey(snake.right, "Right")
+pantalla.listen()
+pantalla.onkey(serpiente.arriba, "Up")
+pantalla.onkey(serpiente.abajo, "Down")
+pantalla.onkey(serpiente.izquierda, "Left")
+pantalla.onkey(serpiente.derecha, "Right")
 
-game_is_on = True
-while game_is_on:
-    screen.update()
+juego_activo = True
+
+while juego_activo:
+    pantalla.update()
     time.sleep(0.1)
+    serpiente.mover()
 
-    snake.move()
-
-screen.exitonclick()
+pantalla.exitonclick()

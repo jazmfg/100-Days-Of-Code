@@ -21,12 +21,10 @@ tortuga.setheading(225)
 tortuga.forward(300)
 tortuga.setheading(0)
 
-# Dibujar 100 puntos
 for punto in range(1, 101):
     tortuga.dot(20, random.choice(colores))
     tortuga.forward(50)
 
-    # Cada 10 puntos subir y volver al inicio de la fila
     if punto % 10 == 0:
         tortuga.setheading(90)
         tortuga.forward(50)

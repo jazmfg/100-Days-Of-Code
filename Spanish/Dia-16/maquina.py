@@ -35,6 +35,7 @@ class MaquinaDinero:
             self.dinero_recibido = 0
             return True
         else:
-            print("Lo siento, no es suficiente dinero. Dinero devuelto.")
+            print("Lo siento, no es suficiente dinero.")
+            print("Dinero devuelto")
             self.dinero_recibido = 0
             return False

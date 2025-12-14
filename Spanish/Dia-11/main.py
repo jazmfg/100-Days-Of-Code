@@ -1,6 +1,6 @@
 import os
 import random
-from art import logo
+from arte import logo
 
 def limpiar_consola():
     """Limpia la consola para comenzar un nuevo juego"""
@@ -16,7 +16,6 @@ def calcular_puntaje(mano):
     if sum(mano) == 21 and len(mano) == 2:
         return 0
 
-    # Ajusta As de 11 a 1 si es necesario
     if 11 in mano and sum(mano) > 21:
         mano.remove(11)
         mano.append(1)
@@ -48,14 +47,12 @@ def jugar():
     mano_jugador = []
     mano_computadora = []
 
-    # Repartir 2 cartas a cada uno
     for _ in range(2):
         mano_jugador.append(repartir_carta())
         mano_computadora.append(repartir_carta())
 
     juego_terminado = False
 
-    # Turno del jugador
     while not juego_terminado:
         puntaje_jugador = calcular_puntaje(mano_jugador)
         puntaje_computadora = calcular_puntaje(mano_computadora)
@@ -66,20 +63,18 @@ def jugar():
         if puntaje_jugador == 0 or puntaje_computadora == 0 or puntaje_jugador > 21:
             juego_terminado = True
         else:
-            eleccion = input("¿Quieres otra carta? (sí / no): ").lower()
+            eleccion = input("¿Quieres otra carta? (sí / no): ").lower().strip()
             while eleccion not in ['si', 'no']:
-                eleccion = input("Por favor escribe 'si' o 'no': ").lower()
+                eleccion = input("Por favor escribe 'si' o 'no': ").lower().strip()
 
             if eleccion == 'si':
                 mano_jugador.append(repartir_carta())
             else:
                 juego_terminado = True
 
-    # Turno de la computadora
     while calcular_puntaje(mano_computadora) != 0 and calcular_puntaje(mano_computadora) < 17:
         mano_computadora.append(repartir_carta())
 
-    # Puntajes finales
     puntaje_computadora = calcular_puntaje(mano_computadora)
     puntaje_jugador = calcular_puntaje(mano_jugador)
 
@@ -87,11 +82,11 @@ def jugar():
     print(f"Mano final de la computadora: {mano_computadora}, Puntuación final: {puntaje_computadora}")
     print(comparar_puntajes(puntaje_jugador, puntaje_computadora))
 
-# Bucle principal
 while True:
-    jugar_de_nuevo = input("\n¿Quieres jugar Blackjack? (sí / no): ").lower()
+    jugar_de_nuevo = input("\n¿Quieres jugar Blackjack? (sí / no): ").lower().strip()
+    
     while jugar_de_nuevo not in ['si', 'no']:
-        jugar_de_nuevo = input("Por favor escribe 'si' o 'no': ").lower()
+        jugar_de_nuevo = input("Por favor escribe 'si' o 'no': ").lower().strip()
     
     if jugar_de_nuevo == 'si':
         jugar()
