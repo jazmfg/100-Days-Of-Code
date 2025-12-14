@@ -3,16 +3,27 @@
 
 ## 🔰 Principiante
 
-* [Día 01.](/Spanish/Dia01/main.py) Generador de Nombre de Bandas
-* [Día 02.](/Spanish/Dia02/main.py) Calculadora de Propinas
-* [Día 03.](/Spanish/Dia03/main.py) Isla del Tesoro
-* [Día 04.](/Spanish/Dia04/main.py) Piedra, Papel o Tijera
-* [Día 05.](/Spanish/Dia05/main.py) Generador de Contraseñas
-* [Día 06.](/Spanish/Dia06/main.py) Escapar de Laberinto
-* [Día 07.](/Spanish/Dia07) El Ahorcado
-* [Día 08.](/Spanish/Dia08/main.py) Cifrado César
-* [Día 09.](/Spanish/Dia09/main.py) Subasta Secreta
-* [Día 10.](/Spanish/Dia10) Calculadora
+* [Día 01.](/Spanish/Dia-01/main.py) Generador de Nombre de Bandas
+* [Día 02.](/Spanish/Dia-02/main.py) Calculadora de Propinas
+* [Día 03.](/Spanish/Dia-03/main.py) Isla del Tesoro
+* [Día 04.](/Spanish/Dia-04/main.py) Piedra, Papel o Tijera
+* [Día 05.](/Spanish/Dia-05/main.py) Generador de Contraseñas
+* [Día 06.](/Spanish/Dia-06/main.py) Escapar de Laberinto
+* [Día 07.](/Spanish/Dia-07/main.py) El Ahorcado
+* [Día 08.](/Spanish/Dia-08/main.py) Cifrado César
+* [Día 09.](/Spanish/Dia-09/main.py) Subasta Secreta
+* [Día 10.](/Spanish/Dia-10/main.py) Calculadora
+* [Día 11.](/Spanish/Dia-11/main.py) Blackjack
+* [Día 12.](/Spanish/Dia-12/main.py) Adivina el Número
+* [Dia 13.](/Spanish/Dia-13/README.md) Depuración
+* [Día 14.](/Spanish/Dia-14/main.py) Mayor / Menor
+* [Día 15.](/Spanish/Dia-15/main.py) Máquina de café 
+* [Día 16.](/Spanish/Dia-16/main.py) Máquina de café y Programación Orientada a Objetos (POO)
+* [Día 17.](/Spanish/Dia-17/main.py) Test
+* [Día 18.](/Spanish/Dia-18/main.py) Turtle
+* [Día 19.](/Spanish/Dia-19/main.py)  
+* [Día 20.](/Spanish/Dia-20/main.py) 
+
 
 <div align="center">
     <strong><a href="/README.md">English</a></strong>
