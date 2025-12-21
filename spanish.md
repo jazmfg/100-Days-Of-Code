@@ -23,7 +23,11 @@
 * [Día 18.](/Spanish/Dia-18/main.py) Turtle
 * [Día 19.](/Spanish/Dia-19/main.py) Carrera de Tortugas
 * [Día 20.](/Spanish/Dia-20/main.py) Juego de la serpiente - Parte I
-
+* [Día 21.](/Spanish/Dia-21/main.py) Juego de la serpiente - Parte II
+* [Día 22.](/Spanish/Dia-22/main.py) Ping Pong
+* [Día 23.](/Spanish/Dia-23/main.py) Juego Cruce de tortugas
+* [Día 24.](/Spanish/Dia-24) Mail merge + Juego de la serpiente Parte III
+* [Día 25.](/Spanish/Dia-25/main.py) Estados de EE.UU.
 
 <div align="center">
     <strong><a href="/README.md">English</a></strong>
